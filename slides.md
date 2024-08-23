@@ -33,7 +33,7 @@ download: true
 
 ---
 layout: image-right
-image: /images/gifs/sad.webp
+image: ./images/gifs/sad.webp
 equal: true
 ---
 
@@ -43,7 +43,7 @@ It’ll be quick, I promise.
 
 ---
 layout: dynamic-image
-image: /images/pray.jpg
+image: ./images/pray.jpg
 equal: false
 left: false
 ---
@@ -60,7 +60,7 @@ left: false
 
 ---
 layout: center-image
-image: /images/html-everywhere.jpg
+image: ./images/html-everywhere.jpg
 ---
 
 ---
@@ -80,7 +80,7 @@ layout: center
 
 ---
 layout: dynamic-image
-image: /images/html-versions.jpg
+image: ./images/html-versions.jpg
 equal: false
 left: false
 ---
@@ -103,7 +103,7 @@ left: false
 
 ---
 layout: dynamic-image
-image: /images/rules.jpg
+image: ./images/rules.jpg
 equal: false
 left: true
 ---
@@ -252,7 +252,7 @@ layout: center-image
 
 ---
 layout: image-right
-image: /images/gifs/score.webp
+image: ./images/gifs/score.webp
 equal: false
 ---
 
@@ -262,7 +262,7 @@ Brace yourselves kids
 
 ---
 layout: dynamic-image
-image: /images/html-code.jpg
+image: ./images/html-code.jpg
 left: false
 equal: false
 ---
@@ -316,7 +316,7 @@ equal: false
 
 ---
 layout: dynamic-image
-image: /images/html-code.jpg
+image: ./images/html-code.jpg
 left: false
 equal: false
 ---
@@ -346,7 +346,7 @@ equal: false
 
 ---
 layout: dynamic-image
-image: /images/html-code.jpg
+image: ./images/html-code.jpg
 left: false
 equal: false
 ---
@@ -390,7 +390,7 @@ equal: false
 
 ---
 layout: dynamic-image
-image: /images/html-code.jpg
+image: ./images/html-code.jpg
 left: false
 equal: false
 ---
@@ -424,7 +424,7 @@ alt="You found me !" />
 
 ---
 layout: dynamic-image
-image: /images/html-code.jpg
+image: ./images/html-code.jpg
 left: false
 equal: false
 ---
@@ -471,7 +471,7 @@ There are six levels of heading in HTML, **1** being the most important and obvi
 
 ---
 layout: intro
-image: /images/quiz.jpg
+image: ./images/quiz.jpg
 ---
 
 <h1 class="absolute left-12 bottom-12">Quiz time</h1>
@@ -480,7 +480,7 @@ image: /images/quiz.jpg
 
 ---
 layout: dynamic-image
-image: /images/question.jpg
+image: ./images/question.jpg
 equal: false
 ---
 
@@ -503,7 +503,7 @@ It’s really simple 😉
 
 ---
 layout: dynamic-image
-image: /images/time.jpg
+image: ./images/time.jpg
 equal: false
 left: false
 ---
@@ -532,7 +532,7 @@ Who wants to write some code?
 
 ---
 layout: dynamic-image
-image: /images/containers.jpg
+image: ./images/containers.jpg
 equal: false
 left: false
 ---
@@ -571,7 +571,7 @@ Useful little tags to group and/or style content
 
 ---
 layout: dynamic-image
-image: /images/street-lamps.jpg
+image: ./images/street-lamps.jpg
 equal: false
 ---
 
@@ -641,7 +641,7 @@ Sometimes you need to highlight parts of your content
 
 ---
 layout: dynamic-image
-image: /images/structure.jpg
+image: ./images/structure.jpg
 equal: false
 left: false
 ---
@@ -662,7 +662,7 @@ HTML5 tags to create blocks in a meaningful way
 
 ---
 layout: dynamic-image
-image: /images/structure.jpg
+image: ./images/structure.jpg
 equal: false
 left: false
 ---
@@ -702,7 +702,7 @@ HTML5 tags to create blocks in a meaningful way
 
 ---
 layout: dynamic-image
-image: /images/list.jpg
+image: ./images/list.jpg
 equal: false
 ---
 
@@ -721,7 +721,7 @@ There are two main types of lists and a particular one.
 
 ---
 layout: dynamic-image
-image: /images/list.jpg
+image: ./images/list.jpg
 equal: false
 ---
 
@@ -747,7 +747,7 @@ To-do, shopping, cleaning, ~~killing~~, you name it
 
 ---
 layout: dynamic-image
-image: /images/list.jpg
+image: ./images/list.jpg
 equal: false
 ---
 
@@ -775,7 +775,7 @@ To-do, shopping, cleaning, ~~killing~~, you name it
 
 ---
 layout: dynamic-image
-image: /images/list.jpg
+image: ./images/list.jpg
 equal: false
 ---
 
@@ -807,7 +807,7 @@ To-do, shopping, cleaning, ~~killing~~, you name it
 
 ---
 layout: dynamic-image
-image: /images/tables.jpg
+image: ./images/tables.jpg
 left: false
 equal: false
 ---
@@ -853,7 +853,7 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 
 ---
 layout: dynamic-image
-image: /images/tables.jpg
+image: ./images/tables.jpg
 left: false
 equal: false
 ---
@@ -931,7 +931,7 @@ equal: false
 
 ---
 layout: dynamic-image
-image: /images/tables.jpg
+image: ./images/tables.jpg
 left: false
 equal: false
 ---
@@ -957,7 +957,7 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 
 ---
 layout: dynamic-image
-image: /images/tables.jpg
+image: ./images/tables.jpg
 left: false
 equal: false
 ---
@@ -1056,7 +1056,7 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 
 ---
 layout: dynamic-image
-image: /images/tables.jpg
+image: ./images/tables.jpg
 left: false
 equal: false
 ---
@@ -1156,7 +1156,7 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 
 ---
 layout: intro
-image: /images/quiz.jpg
+image: ./images/quiz.jpg
 ---
 
 <h1 class="absolute left-12 bottom-12">Quiz time</h1>
@@ -1165,7 +1165,7 @@ image: /images/quiz.jpg
 
 ---
 layout: dynamic-image
-image: /images/question.jpg
+image: ./images/question.jpg
 equal: false
 ---
 
@@ -1211,7 +1211,7 @@ That’s the last straw of data.
 
 ---
 layout: dynamic-image
-image: /images/time.jpg
+image: ./images/time.jpg
 equal: false
 left: false
 ---
@@ -1260,7 +1260,7 @@ Who wants to write some code, second edition?
 
 ---
 layout: intro
-image: /images/thinker.jpg
+image: ./images/thinker.jpg
 ---
 
 <div class="absolute inset-0 flex justify-center items-center">
