@@ -298,7 +298,7 @@ equal: false
 <div v-motion v-click.hide="1" :initial="{x:0}" :leave="{x:-999, transition: { delay: 1000 }}" class="mt-4 p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
   <p>
     First paragraph.
-    Notice this sentence is on the same line dispite the line break.
+    Notice this sentence is on the same line despite the line break.
   </p>
   <p>
     Second paragraph
@@ -1221,7 +1221,7 @@ Who wants to write some code, second edition?
 
 <div v-click class="scale-70 -mt-23">
 
-```html {*}{lines:true}
+```html {*|14|29}{lines:true}
 <table>
   <thead>
     <tr>
