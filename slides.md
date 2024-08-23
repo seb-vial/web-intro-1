@@ -1,6 +1,6 @@
 ---
 theme: light-icons
-image: /images/intro.jpg
+image: ./images/intro.jpg
 title: Web development - Introduction
 transition: slide-left
 mdc: true
