@@ -1,7 +1,7 @@
 ---
 theme: light-icons
 image: ./images/intro.jpg
-title: Web development - Introduction
+title: Web development - Introduction | Part 1
 transition: slide-left
 mdc: true
 layout: intro
@@ -13,8 +13,8 @@ download: true
     Web development<light-icon icon="code"/>
   </span>
   <div class="text-4xl text-white text-opacity-60 font-300 uppercase" >
-    Introduction
-  </div> 
+    Introduction – Part 1
+  </div>
 </div>
 
 <div class="mb-4 absolute bottom-4 right-12">
@@ -1219,9 +1219,9 @@ left: false
 # Time’s up!
 Who wants to write some code, second edition?
 
-<div v-click class="scale-70 -mt-23">
+<div v-click="1" class="scale-70 -mt-23">
 
-```html {*|14|29}{lines:true}
+```html {*|all|14|29}{lines:true}
 <table>
   <thead>
     <tr>
@@ -1268,5 +1268,5 @@ image: ./images/thinker.jpg
 </div>
 
 <div class="absolute bottom-4 right-4 opacity-50 text-sm italic">
-  © Unsplash<br>@ Giphy
+  © Unsplash<br>© Giphy<br>© imgflip
 </div>
