@@ -6,6 +6,7 @@ transition: slide-left
 mdc: true
 layout: intro
 download: true
+favicon: "https://scratchmy.dev/favicon.ico"
 ---
 
 <div class="mb-4 absolute top-20 left-12">
