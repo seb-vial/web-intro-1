@@ -670,7 +670,7 @@ left: false
 # Structuring your content
 HTML5 tags to create blocks in a meaningful way
 
-<div class="scale-95 -mt-2">
+<Transform scale="0.95">
 
 ```html {*}{lines:true}
 <!DOCTYPE html>
@@ -696,7 +696,7 @@ HTML5 tags to create blocks in a meaningful way
 </html>
 ```
 
-</div>
+</Transform>
 <img v-click src="/images/html5-schema.png" alt="HTML5 tags example" class="absolute right-4 top-[22%] w-1/3 h-auto border-2 border-teal-600 rounded-md" />
 <ComplementaryMessage type="alert" class="!-mt-2">Without any styling, these will just be a series of blocks.</ComplementaryMessage>
 
@@ -862,7 +862,7 @@ equal: false
 
 <h3 class="-mt-4">Advanced example</h3>
 
-<div class="scale-80 -mt-14">
+<Transform scale="0.8">
 
 ```html {*}{lines:true}
 <table>
@@ -896,7 +896,7 @@ equal: false
 </table>
 ```
 
-</div>
+</Transform>
 <div v-click class="absolute right-20 top-[35%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
   <table class="!border">
     <!-- Title for the table -->
@@ -1106,7 +1106,7 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 ```
 ````
 
-<div v-click.hide="2" class="absolute right-30 top-[40%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
+<div v-click.hide="2" class="absolute right-35 top-[40%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
   <table class="!border">
     <tr>
       <th class="!border !font-semibold">Title 1</th>
@@ -1128,9 +1128,9 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 
 <div class="absolute h-4 w-24 bottom-45 left-29" v-mark.box.blue="[1,2]"></div>
 <div class="absolute h-4 w-24 bottom-22 left-29" v-mark.box.blue="[1,2]"></div>
-<div class="absolute h-22 w-10 right-36 bottom-42" v-mark.box.blue="[1,2]"></div>
+<div class="absolute h-22 w-10 right-41 bottom-42" v-mark.box.blue="[1,2]"></div>
 
-<div v-click="2" class="absolute right-30 top-[40%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
+<div v-click="2" class="absolute right-25 top-[40%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
   <table class="!border">
     <tr>
       <th class="!border !font-semibold">Title 1</th>
@@ -1150,7 +1150,7 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 </div>
 
 <div class="absolute h-4 w-56 bottom-43 left-29" v-mark.box.blue="3"></div>
-<div class="absolute h-22 w-25 right-36 bottom-42" v-mark.box.blue="3"></div>
+<div class="absolute h-22 w-25 right-31 bottom-42" v-mark.box.blue="3"></div>
 
 <img v-motion v-click="4" :initial="{x: 999, y: -999}" :enter="{x: 180, y: -350}" class="absolute rounded-md border-2 border-teal-600" src="/images/gifs/failed-magic.webp" alt="Failed magic GIF" />
 
@@ -1219,7 +1219,7 @@ left: false
 # Time’s up!
 Who wants to write some code, second edition?
 
-<div v-click="1" class="scale-70 -mt-23">
+<Transform v-click="1" scale="0.7">
 
 ```html {*|all|14|29}{lines:true}
 <table>
@@ -1256,7 +1256,7 @@ Who wants to write some code, second edition?
 </table>
 ```
 
-</div>
+</Transform>
 
 ---
 layout: intro
