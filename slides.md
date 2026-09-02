@@ -1,8 +1,17 @@
 ---
 theme: light-icons
-image: ./images/intro.jpg
+background: ./images/intro.jpg
 title: Web development - Introduction | Part 1
+# https://sli.dev/features/drawing
+drawings:
+  persist: false
+# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
+# enable Comark Syntax: https://comark.dev/syntax/markdown
+comark: true
+# duration of the presentation
+duration: 120min
+image: ./images/intro.jpg
 mdc: true
 layout: intro
 download: true
@@ -30,7 +39,6 @@ favicon: "https://scratchmy.dev/favicon.ico"
     </div>
   </div>
 </div>
-
 
 ---
 layout: image-right
@@ -63,7 +71,6 @@ left: false
 layout: center-image
 image: ./images/html-everywhere.jpg
 ---
-
 ---
 layout: center
 ---
@@ -99,7 +106,7 @@ left: false
 </v-clicks>
 
 <div v-click class="text-center mt-4">
-  Latest version: 5.2 since 2017
+  Latest version: <strong>HTML Living Standard</strong> since 2023
 </div>
 
 ---
@@ -113,7 +120,7 @@ left: true
 
 <v-clicks>
 
-- Well it’s the **World Wide Web Consortium** created by *master* Tim Berners-Lee of course
+- Well it’s the **World Wide Web Consortium** created by _master_ Tim Berners-Lee of course
 - It gives standards that web browsers should follow
 - Tool to test and validate web pages
 
@@ -126,7 +133,6 @@ layout: center-image
 <h1 class="text-4xl mb-4 text-teal-400">Time to code…</h1>
 
 ![Excited gif](/images/gifs/excited.webp)
-
 
 ---
 layout: center-image
@@ -199,7 +205,6 @@ layout: center-image
 ---
 layout: center-image
 ---
-
 # Attributes
 
 ```html {*}{lines:true}
@@ -214,7 +219,6 @@ Attributes are usually shaped this way: <strong v-mark.circle.red="1">key</stron
 <span v-mark.circle.blue="1" class="absolute text-transparent mt-0.5 -ml-0.5 top-[44.5%] left-[59%] text-[12px] font-[var(--prism-font-family)]">value</span>
 
 <ComplementaryMessage>Sometimes attributes don’t have any value</ComplementaryMessage>
-
 
 ---
 layout: center-image
@@ -236,7 +240,7 @@ layout: center-image
 <!DOCTYPE html> <!-- HTML5 Doctype -->
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Other meta tags (description, keywords, viewport,...) | optional -->
     <title>Document</title>
     <!-- Tags to load CSS and Javascript files | optional -->
@@ -285,7 +289,7 @@ equal: false
 
 ```html {*}
 <p>
-  First paragraph.<br>
+  First paragraph.<br />
   Notice this sentence is on a new line but in the same paragraph.
 </p>
 <p>
@@ -404,7 +408,7 @@ equal: false
 ### From the local website
 
 ```html {*}{lines:true}
-<img src="wink.webp" title="Wink wink !" 
+<img src="wink.webp" title="Wink wink !"
   alt="A gif of a person winking" />
 ```
 
@@ -413,8 +417,11 @@ equal: false
 ### Online image
 
 ```html {*}{lines:true}
-<img src="https://exemple.fr/pics/668989b1q0p0.jpg" title="Surprise !"
-alt="You found me !" />
+<img
+  src="https://exemple.fr/pics/668989b1q0p0.jpg"
+  title="Surprise !"
+  alt="You found me !"
+/>
 ```
 
 </div>
@@ -486,6 +493,7 @@ equal: false
 ---
 
 # Riddle me this
+
 It’s really simple 😉
 
 <v-clicks>
@@ -510,6 +518,7 @@ left: false
 ---
 
 # Time’s up!
+
 Who wants to write some code?
 
 <div v-click="1">
@@ -518,7 +527,7 @@ Who wants to write some code?
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Document</title>
   </head>
   <body>
@@ -539,11 +548,13 @@ left: false
 ---
 
 # Containers
+
 Useful little tags to group and/or style content
 
 <div v-click>
 
 ### Divisions
+
 ```html {*}{lines:true}
 <div>
   <p>First paragraph in this block.</p>
@@ -577,6 +588,7 @@ equal: false
 ---
 
 # Important content
+
 Sometimes you need to highlight parts of your content
 
 <div v-click>
@@ -648,6 +660,7 @@ left: false
 ---
 
 # Structuring your content
+
 HTML5 tags to create blocks in a meaningful way
 
 <v-clicks>
@@ -669,6 +682,7 @@ left: false
 ---
 
 # Structuring your content
+
 HTML5 tags to create blocks in a meaningful way
 
 <Transform scale="0.95">
@@ -677,7 +691,7 @@ HTML5 tags to create blocks in a meaningful way
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Document</title>
   </head>
   <body>
@@ -708,6 +722,7 @@ equal: false
 ---
 
 # Lists
+
 To-do, shopping, cleaning, ~~killing~~, you name it
 
 There are two main types of lists and a particular one.
@@ -727,9 +742,11 @@ equal: false
 ---
 
 # Lists (1/3)
+
 To-do, shopping, cleaning, ~~killing~~, you name it
 
 ### Unordered lists
+
 ```html {*}{lines:true}
 <ul>
   <li>Item 1</li>
@@ -753,9 +770,11 @@ equal: false
 ---
 
 # Lists (2/3)
+
 To-do, shopping, cleaning, ~~killing~~, you name it
 
 ### Ordered lists
+
 ```html {*}{lines:true}
 <ol>
   <li>First</li>
@@ -781,9 +800,11 @@ equal: false
 ---
 
 # Lists (3/3)
+
 To-do, shopping, cleaning, ~~killing~~, you name it
 
 ### Definitions
+
 ```html {*}{lines:true}
 <dl>
   <dt>1st term</dt>
@@ -814,8 +835,11 @@ equal: false
 ---
 
 # Tables (1/2)
+
 With HTML you can either build very simple data tables to complex (i.e. unreadable) master pieces.
+
 ### Basic example
+
 ```html {*}{lines:true}
 <table>
   <caption>Title for the table</caption>
@@ -837,18 +861,22 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 <div v-click class="absolute right-20 top-[40%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
   <table class="!border">
     <caption>Title for the table</caption>
-    <tr>
-      <th class="!border !font-semibold">Title 1</th>
-      <th class="!border !font-semibold">Title 2</th>
-    </tr>
-    <tr>
-      <td class="!border">Val 1 for line 1</td>
-      <td class="!border">Val 2 for line 1</td>
-    </tr>
-    <tr>
-      <td class="!border">Val 1 for line 2</td>
-      <td class="!border">Val 2 for line 2</td>
-    </tr>
+    <thead>
+      <tr>
+        <th class="!border !font-semibold">Title 1</th>
+        <th class="!border !font-semibold">Title 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="!border">Val 1 for line 1</td>
+        <td class="!border">Val 2 for line 1</td>
+      </tr>
+      <tr>
+        <td class="!border">Val 1 for line 2</td>
+        <td class="!border">Val 2 for line 2</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
@@ -938,6 +966,7 @@ equal: false
 ---
 
 # Tables (2/2)
+
 With HTML you can either build very simple data tables to complex (i.e. unreadable) master pieces.
 
 ### Merging
@@ -964,6 +993,7 @@ equal: false
 ---
 
 # Tables (2/2)
+
 With HTML you can either build very simple data tables to complex (i.e. unreadable) master pieces.
 
 ### Colspan
@@ -988,6 +1018,7 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
   </tr>
 </table>
 ```
+
 ```html {*}
 <table>
   <tr>
@@ -1010,21 +1041,25 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 
 <div v-click.hide="2" class="absolute right-30 top-[40%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
   <table class="!border">
-    <tr>
-      <th class="!border !font-semibold">Title 1</th>
-      <th class="!border !font-semibold">Title 2</th>
-      <th class="!border !font-semibold">Title 3</th>
-    </tr>
-    <tr>
-      <td class="!border">Val 1</td>
-      <td class="!border">Val 2</td>
-      <td class="!border">Val 3</td>
-    </tr>
-    <tr>
-      <td class="!border">Val 1</td>
-      <td class="!border">Val 2</td>
-      <td class="!border">Val 3</td>
-    </tr>
+    <thead>
+      <tr>
+        <th class="!border !font-semibold">Title 1</th>
+        <th class="!border !font-semibold">Title 2</th>
+        <th class="!border !font-semibold">Title 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="!border">Val 1</td>
+        <td class="!border">Val 2</td>
+        <td class="!border">Val 3</td>
+      </tr>
+      <tr>
+        <td class="!border">Val 1</td>
+        <td class="!border">Val 2</td>
+        <td class="!border">Val 3</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
@@ -1033,20 +1068,24 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 
 <div v-click="2" class="absolute right-30 top-[40%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
   <table class="!border">
-    <tr>
-      <th class="!border !font-semibold">Title 1</th>
-      <th class="!border !font-semibold">Title 2</th>
-      <th class="!border !font-semibold">Title 3</th>
-    </tr>
-    <tr>
-      <td class="!border">Val 1</td>
-      <td class="!border">Val 2</td>
-      <td class="!border">Val 3</td>
-    </tr>
-    <tr>
-      <td class="!border">Val 1</td>
-      <td class="!border" colspan="2">Val 2 & Val 3</td>
-    </tr>
+    <thead>
+      <tr>
+        <th class="!border !font-semibold">Title 1</th>
+        <th class="!border !font-semibold">Title 2</th>
+        <th class="!border !font-semibold">Title 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="!border">Val 1</td>
+        <td class="!border">Val 2</td>
+        <td class="!border">Val 3</td>
+      </tr>
+      <tr>
+        <td class="!border">Val 1</td>
+        <td class="!border" colspan="2">Val 2 & Val 3</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
@@ -1063,6 +1102,7 @@ equal: false
 ---
 
 # Tables (2/2)
+
 With HTML you can either build very simple data tables to complex (i.e. unreadable) master pieces.
 
 ### Rowspan
@@ -1087,6 +1127,7 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
   </tr>
 </table>
 ```
+
 ```html {*}
 <table>
   <tr>
@@ -1109,21 +1150,23 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 
 <div v-click.hide="2" class="absolute right-35 top-[40%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
   <table class="!border">
-    <tr>
-      <th class="!border !font-semibold">Title 1</th>
-      <td class="!border">Val 1</td>
-      <td class="!border">Val 2</td>
-    </tr>
-    <tr>
-      <th class="!border !font-semibold">Title 2</th>
-      <td class="!border">Val 1</td>
-      <td class="!border">Val 2</td>
-    </tr>
-    <tr>
-      <th class="!border !font-semibold">Title 3</th>
-      <td class="!border">Val 1</td>
-      <td class="!border">Val 2</td>
-    </tr>
+    <tbody>
+      <tr>
+        <th class="!border !font-semibold">Title 1</th>
+        <td class="!border">Val 1</td>
+        <td class="!border">Val 2</td>
+      </tr>
+      <tr>
+        <th class="!border !font-semibold">Title 2</th>
+        <td class="!border">Val 1</td>
+        <td class="!border">Val 2</td>
+      </tr>
+      <tr>
+        <th class="!border !font-semibold">Title 3</th>
+        <td class="!border">Val 1</td>
+        <td class="!border">Val 2</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
@@ -1133,20 +1176,22 @@ With HTML you can either build very simple data tables to complex (i.e. unreadab
 
 <div v-click="2" class="absolute right-25 top-[40%] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
   <table class="!border">
-    <tr>
-      <th class="!border !font-semibold">Title 1</th>
-      <td class="!border">Val 1</td>
-      <td class="!border">Val 2</td>
-    </tr>
-    <tr>
-      <th class="!border !font-semibold">Title 2</th>
-      <td class="!border">Val 1</td>
-      <td rowspan="2">Val 2 & Val 2</td>
-    </tr>
-    <tr>
-      <th class="!border !font-semibold">Title 3</th>
-      <td class="!border">Val 1</td>
-    </tr>
+    <tbody>
+      <tr>
+        <th class="!border !font-semibold">Title 1</th>
+        <td class="!border">Val 1</td>
+        <td class="!border">Val 2</td>
+      </tr>
+      <tr>
+        <th class="!border !font-semibold">Title 2</th>
+        <td class="!border">Val 1</td>
+        <td rowspan="2">Val 2 & Val 2</td>
+      </tr>
+      <tr>
+        <th class="!border !font-semibold">Title 3</th>
+        <td class="!border">Val 1</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
@@ -1171,6 +1216,7 @@ equal: false
 ---
 
 # ~~Riddle~~ Solve this
+
 That’s the last straw of data.
 
 <div v-click class="p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md">
@@ -1218,6 +1264,7 @@ left: false
 ---
 
 # Time’s up!
+
 Who wants to write some code, second edition?
 
 <Transform v-click="1" scale="0.7">
